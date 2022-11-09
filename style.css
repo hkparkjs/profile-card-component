@@ -24,7 +24,9 @@ body {
   flex-direction: column;
   font-family: 'Kumbh Sans', sans-serif;
   background-color: var(--dark-cyan);
-  background-image: url('./images/bg-pattern-top.svg');
+  background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+  background-position: top -50vh right 50vw, top 50vh left 50vw;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -33,7 +35,7 @@ body {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
   background-color: var(--white);
-  position: relative;
+  position: relative;  
 }
 
 .header {
@@ -68,6 +70,7 @@ body {
 .name h1 {
   margin-right: 10px;
   font-size: 18px;
+  color: var(--very-dark-desaturated-blue);
 }
 
 .name span {
@@ -99,6 +102,7 @@ body {
 .number {
   font-weight: 700;
   font-size: 20px;
+  color: var(--very-dark-desaturated-blue);
   margin-bottom: 6px;
 }
 
